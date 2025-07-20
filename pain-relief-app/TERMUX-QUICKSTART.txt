@@ -1,0 +1,69 @@
+🏥 PainRelief Pro - Termux Quick Start Guide
+==========================================
+
+📱 STEP-BY-STEP SETUP FOR TERMUX:
+
+1. INSTALL TERMUX
+   - Download from F-Droid (recommended) or Google Play
+   - Open Termux and run: termux-setup-storage
+
+2. PREPARE TERMUX
+   pkg update && pkg upgrade
+   pkg install nodejs npm git python make clang
+
+3. GET THE APP
+   - Copy the 'pain-relief-app' folder to your Termux home directory
+   - OR download/clone from your source
+
+4. SETUP THE APP
+   cd pain-relief-app
+   chmod +x termux-setup.sh
+   ./termux-setup.sh
+
+   ⚡ ALTERNATIVE MANUAL SETUP:
+   npm install --legacy-peer-deps
+
+5. START THE APP
+   npm start
+   OR
+   npm run mobile
+
+6. ACCESS THE APP
+   Open your browser and go to:
+   📱 http://localhost:3000
+   🌐 http://YOUR_IP:3000 (for network access)
+
+🎯 QUICK COMMANDS:
+==================
+Start app:           npm start
+Mobile optimized:    npm run mobile
+Stop app:           Ctrl+C
+Background mode:    nohup npm start > app.log 2>&1 &
+
+🔧 TROUBLESHOOTING:
+==================
+Installation fails:  npm install --legacy-peer-deps
+Port busy:           PORT=3001 npm start
+Memory issues:       NODE_OPTIONS='--max-old-space-size=1024' npm start
+Network access:      Check firewall, use correct IP
+
+📲 PRO TIPS:
+============
+- Install Termux:Widget for home screen shortcuts
+- Use termux-wake-lock to prevent sleep
+- Add app to browser home screen as PWA
+- Use Chrome/Firefox for best experience
+
+🏥 FEATURES:
+============
+✅ Pain Tracking & Analytics
+✅ Music Therapy Player  
+✅ Guided Meditations
+✅ Therapeutic Exercises
+✅ Breathing Techniques
+✅ Sound Therapy & Binaural Beats
+✅ Progress Tracking & Insights
+
+💙 Enjoy your premium pain management app!
+
+For detailed help, check README-TERMUX.md
