@@ -8,7 +8,7 @@ import {
   User,
   Brain,
   Heart,
-  Lotus,
+  Flower,
   Mountain,
   Sun,
   Moon,
@@ -52,7 +52,7 @@ const Meditation: React.FC = () => {
     { id: 'all', name: 'All', icon: Brain },
     { id: 'pain-relief', name: 'Pain Relief', icon: Heart },
     { id: 'body-scan', name: 'Body Scan', icon: User },
-    { id: 'mindfulness', name: 'Mindfulness', icon: Lotus },
+    { id: 'mindfulness', name: 'Mindfulness', icon: Flower },
     { id: 'sleep', name: 'Sleep', icon: Moon },
     { id: 'stress', name: 'Stress Relief', icon: Sun }
   ];
